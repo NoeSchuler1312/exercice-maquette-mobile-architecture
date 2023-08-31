@@ -5,7 +5,6 @@
 }
 
 html {
-  font-size: 16px;
 }
 
 body {
@@ -30,15 +29,18 @@ video {
 
 header {
   font-size: 16px;
+  padding: 20px 0 47px 7px;
 }
 
 header a {
   text-decoration: none;
+  margin-right: 16px;
 }
 
 h1 {
   font-size: 30px;
   font-weight: 400;
+  margin: 53px 0 10px 0;
 }
 
 h2 {
@@ -46,8 +48,11 @@ h2 {
   font-weight: 700;
 }
 
-.info p,
-a {
+.info {
+  padding: 0 0 22px 7px;
+}
+
+.info p {
   font-size: 12px;
 }
 
@@ -55,13 +60,25 @@ main p {
   font-size: 16px;
 }
 
+main a {
+  font-size: 12px;
+}
+
+.main-text {
+  padding: 54px 77px 56px 0;
+  line-height: 26px;
+}
+
 .link-back {
   text-align: center;
+  padding: 28px 0 16px;
+  line-height: 12px;
 }
 
 footer {
   background-color: #000;
   color: #fff;
+  padding: 30px 0 36px 7px;
 }
 
 footer p {
@@ -74,4 +91,5 @@ footer strong {
 
 .sources {
   font-size: 10px;
+  margin-top: 22px;
 }
